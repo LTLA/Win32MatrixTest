@@ -1,0 +1,13 @@
+Package: TestPackage
+Version: 0.0.1
+Title: Testing tcrossprod on Windows 32-bit
+Description: tcrossprod yields different results from
+    the equivalent matrix multiplication on 32-bit Windows
+    with Matrix classes. This is a minimal package 
+    designed to demonstrate the problem.
+Authors@R: person("Aaron", "Lun", role=c("aut", "cre"), email="infinite.monkeys.with.keyboards@gmail.com")
+License: GPL-3
+Depends: Matrix
+Suggests: knitr, testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
